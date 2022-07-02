@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.longxiang.kekemed</groupId>
-  <artifactId>KekeMed-system-consumer</artifactId>
+  <artifactId>KekeMed-system-provider</artifactId>
   <version>1.0.0</version>
 
-  <name>KekeMed-system-consumer</name>
+  <name>KekeMed-system-provider</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
