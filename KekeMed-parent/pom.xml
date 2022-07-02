@@ -22,6 +22,13 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <spring-cloud.version>2021.0.3</spring-cloud.version>
+    <lombok.version>1.18.24</lombok.version>
+    <mapstruct.version>1.5.1.Final</mapstruct.version>
+    <hutool-all.version>5.8.3</hutool-all.version>
+    <druid-spring-boot-starter.version>1.2.11</druid-spring-boot-starter.version>
+    <mybatis-spring-boot-starter.version>2.2.2</mybatis-spring-boot-starter.version>
+    <mybatis-plus-boot-starter.version>3.5.2</mybatis-plus-boot-starter.version>
+    <pagehelper-spring-boot-starter.version>1.4.3</pagehelper-spring-boot-starter.version>
   </properties>
 
   <dependencies>
