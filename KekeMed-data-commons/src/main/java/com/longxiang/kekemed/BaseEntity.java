@@ -3,6 +3,7 @@ package com.longxiang.kekemed;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * <b>基础实体</b>
@@ -12,8 +13,9 @@ import java.io.Serializable;
  */
 @Data
 public class BaseEntity implements Serializable {
-	private Data createTime;					//创建时间
-	private Data updateTime;					//修改时间
+	private String status;
+	private Date createTime;					//创建时间
+	private Date updateTime;					//修改时间
 	private String creater;						//创建人
 	private String updater;						//修改人
 }

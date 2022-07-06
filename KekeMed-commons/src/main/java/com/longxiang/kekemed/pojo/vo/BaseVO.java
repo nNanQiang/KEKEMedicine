@@ -14,9 +14,9 @@ import java.util.Date;
 @Data
 public class BaseVO implements Serializable {
 	private static final long serialVersionUID = -766897973536349355L;
-
+	private String status;
 	private Date createTime;
-	private Date uptateTime;
+	private Date updateTime;
 	private String creater;
 	private String updater;
 }

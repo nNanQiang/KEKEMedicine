@@ -3,6 +3,7 @@ package com.longxiang.kekemed.util;
 import com.fasterxml.jackson.databind.json.JsonMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,12 +13,13 @@ import java.util.concurrent.TimeUnit;
  * @author ssss
  * @date 2022/7/4
  */
+@Component("redisUtil")
 public class RedisUtil {
 	@Autowired
 	private StringRedisTemplate redisTemplate;
 
 	/**
-	 * <b>向保存 redis 中存入数据 </b>
+	 * <b>向 redis 中存入数据 </b>
 	 * @param key
 	 * @param value
 	 * @param expireSec
